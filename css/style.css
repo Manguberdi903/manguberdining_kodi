@@ -233,7 +233,7 @@ section {
 .collection {
   padding: 484px 0 100px;
   width: 50%;
-  background-image: url("../images/Rectangle\ 8\ \(1\).png");
+  background-color: black;
   height: 730px;
   background-size: cover;
   background-position: center;
@@ -308,13 +308,13 @@ section {
   letter-spacing: 0%;
   text-align: center;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 1);
+  color: black;
 }
 
 .collection2018-hr {
   width: 120px;
   margin: 40px auto;
-  border: 1px solid rgba(255, 255, 255, 1);
+  border: 1px solid black;
 }
 
 .collection2018-text {
@@ -419,13 +419,13 @@ footer {
   border-radius: 50%;
   background: rgba(15, 15, 15, 1);
   font-size: 25px;
-  color: rgba(255, 255, 255, 1);
+  color: white;
   position: fixed;
   bottom: 30px;
   right: 50px;
-  -webkit-box-shadow: 0px 0px 33px 5px rgba(255, 255, 255, 1);
-  -moz-box-shadow: 0px 0px 33px 5px rgba(255, 255, 255, 1);
-  box-shadow: 0px 0px 33px 5px rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 0px 0px 33px 5px black;
+  -moz-box-shadow: 0px 0px 33px 5px black;
+  box-shadow: 0px 0px 33px 5px black;
   /* display: none; */
   opacity: 0;
   z-index: -99;
@@ -475,6 +475,176 @@ footer {
 
 .nav-btn2:hover .dropdown-content {
   display: block;
+}
+.collection2018-text {
+  color: white;
+}
+.birgina {
+  display: flex;
+}
+.maymun {
+  background-color: rgba(0, 0, 0, 1);
+}
+nav {
+  background-color: rgba(0, 0, 0, 1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-brand {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#hamburger {
+  color: #ffffff;
+  font-size: 25px;
+  display: none;
+}
+.nav-items {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.nav-menu {
+  display: flex;
+}
+.nav-menu__link {
+  padding: 31px 20px;
+  display: flex;
+  font-family: PT Sans;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: rgba(150, 150, 150, 1);
+  transition: 1s;
+}
+.nav-menu__link:hover {
+  background-color: rgba(31, 31, 31, 1);
+  color: rgba(255, 255, 255, 1);
+}
+.nav-icons {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+/* user-bgImg */
+.user-bg__img {
+  padding: 160px 0 154px;
+  background-image: url("../images/user.svg");
+  height: 810px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.user-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 320px;
+  border: 4px solid rgba(255, 255, 255, 1);
+  margin: 0 auto 80px;
+}
+.user-box__brand img {
+  padding-bottom: 15px;
+  border-bottom: 2px solid rgba(255, 255, 255, 1);
+}
+.user-box p {
+  padding-top: 7px;
+  font-family: PT Sans;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 1);
+}
+.user-p {
+  width: 730px;
+  margin: 0 auto;
+  font-family: PT Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 1);
+}
+
+@media (max-width: 750px) {
+  .user-p {
+    padding: 0 15px;
+    width: 100%;
+  }
+}
+@media (max-width: 740px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .nav-brand {
+    width: 100%;
+    padding: 20px 0;
+  }
+  #hamburger {
+    display: block;
+  }
+  .nav-items {
+    display: none;
+  }
+  .active {
+    display: flex;
+  }
+}
+@media (max-width: 600px) {
+  .nav-items {
+    padding: 20px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+@media (max-width: 452px) {
+  .nav-menu {
+    flex-wrap: wrap;
+    padding: 40px;
+    justify-content: center;
+  }
+}
+@media (max-width: 590px) {
+  .header-call {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  .header-user span {
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+}
+@media (max-width: 390px) {
+  .header-user {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 7px;
+  }
+}
+@media (max-width: 370px) {
+  .user-box {
+    width: 90%;
+  }
+}
+@media (max-width: 330px) {
+  .user-bg__img {
+    height: 850px;
+  }
 }
 
 @media (max-width: 1080px) {
