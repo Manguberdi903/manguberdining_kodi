@@ -483,10 +483,10 @@ footer {
   display: flex;
 }
 .maymun {
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(15, 15, 15, 1);
 }
 nav {
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(15, 15, 15, 1);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -508,8 +508,9 @@ nav {
 }
 .nav-menu {
   display: flex;
+  gap: 15px;
 }
-.nav-menu__link {
+.nav-menu__bratishka {
   padding: 31px 20px;
   display: flex;
   font-family: PT Sans;
@@ -577,7 +578,12 @@ nav {
   text-transform: uppercase;
   color: rgba(255, 255, 255, 1);
 }
-
+.nav-items {
+  background-color: rgba(15, 15, 15, 1);
+}
+nav {
+  background-color: rgba(15, 15, 15, 1);
+}
 @media (max-width: 750px) {
   .user-p {
     padding: 0 15px;
